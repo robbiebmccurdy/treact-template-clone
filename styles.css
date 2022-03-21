@@ -326,3 +326,14 @@ img{
     padding-top: 0;
     padding-right: 0;
 }
+
+.features__header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.features__para {
+    font-weight: bold;
+}
