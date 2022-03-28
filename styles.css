@@ -49,7 +49,7 @@ img{
 
 .row {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -446,4 +446,199 @@ img{
     text-align: left;
     text-size-adjust: 100%;
     width: 254px;
+}
+
+
+/* Quality Section */
+
+.quality__div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 24px;
+    margin-left: 4.5px;
+    margin-right: 4.5px;
+    padding-bottom: 96px;
+    padding-top: 96px;
+}
+
+.quality__description {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    border-image-width: 1;
+    color: rgb(36, 62, 99);
+    line-height: 24px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    tab-size: 4;
+    text-align: left;
+    text-size-adjust: 100%;
+}
+
+.h5__quality {
+    border-image-repeat: stretch;
+    border-image-width: 1;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    tab-size: 4;
+    text-align: left;
+    text-size-adjust: 100%;
+    letter-spacing: 2px;
+}
+
+.h2__quality {
+    color:rgb(36, 62, 99);
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    line-height: 60px;
+    margin-block-start: 16px;
+    margin-top: 16px;
+}
+
+.p__quality {
+    color: rgb(124, 139, 161);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29.25px;
+    margin-block-start: 16px;
+    margin-top: 16px;
+    text-align: left;
+    width: 550px;
+}
+
+.button__quality {
+    background-color: rgb(100,21,255);
+    border-bottom-color: rgb(229,231,235);
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-bottom-style: solid;
+    border-image-width: 1;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    color: rgb(247, 250, 252);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    margin-top: 32px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 12px;
+    text-align: left;
+    text-decoration-color: rgb(247, 250, 252);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    width: 141.25px;
+}
+
+.quality__pic {
+    border-color: rgb(229,231,235);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4x;
+    border-top-right-radius: 4px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+/* STEPS PAGE */
+
+.steps__div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 24px;
+    margin-left: 4.5px;
+    margin-right: 4.5px;
+    padding-bottom: 96px;
+    padding-top: 96px;
+}
+
+.steps__picture {
+    width: 50%;
+}
+
+.steps__description {
+    margin-left: 64px;
+}
+
+.steps__h5 {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1.2px;
+}
+
+.steps__h2 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-block-start: 16px;
+    letter-spacing: 1.2px;
+    line-height: 60px;
+    margin-top: 16px;
+    text-align: left;
+    text-size-adjust: 100%;
+}
+
+.steps__lists {
+    line-height: 24px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-block-start: 48px;
+    margin-top: 48px;
+    text-align: left;
+    text-size-adjust: 100%;
+    font-family: 'Inter', system-ui;
+}
+
+.steps__list {
+    display: flex;
+    margin-top: 16px;
+}
+
+.steps__number {
+    color: rgb(203, 213, 224);
+    display: block;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 36px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+}
+
+.steps__text {
+    display: block;
+    line-height: 24px;
+    margin-left: 24px;
+}
+
+.text__h6 {
+    color: rgb(36, 62, 99);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.text__para {
+    color: rgb(113, 128, 150);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-block-start: 12px;
+    margin-top: 12px;
+    max-width: 320px;
 }
